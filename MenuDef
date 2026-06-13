@@ -1,0 +1,59 @@
+AddOptionMenu "OptionsMenu"
+{
+	Submenu "'Queen' Scattergun Options", "VirQueen_Menu"
+}
+
+AddOptionMenu "HDAddonMenu"
+{
+	Submenu "'Queen' Scattergun Options", "VirQueen_Menu"
+}
+
+OptionValue "SpawnEnable"
+{
+    0,    "Nope"
+    1,    "Yepp"
+}
+
+
+OptionMenu "VirQueen_Menu"
+{
+	Title "'Queen' Scattergun Options"
+	
+	StaticText "--- Spawning ---", "DarkGreen"
+	StaticText ""
+	Slider " Gun Spawns (Shotgun Pool)", "SLG_Queen_Spawns", 0.0, 50, .01, 2
+	Slider " Magazine Spawns (Shell Pool)", "SLG_QueenMag_Spawns", 0.0, 50, .01, 2
+	StaticText ""
+	Option "Gun Spawns in Backpacks?", "virqueen_allowBackpacks", "SpawnEnable"
+	Option "Mags Spawn in Backpacks?", "virqueenmag_allowBackpacks", "SpawnEnable"
+	StaticText ""
+	Option "Gun has Persistent Spawns?", "SLG_Queen_Persistency", "SpawnEnable"
+	Option "Mags have Persistent Spawns?", "SLG_QueenMag_Persistency", "SpawnEnable"
+	StaticText ""
+	StaticText "--- Merchant Store ---", "DarkGreen"
+	StaticText ""
+	Option "Gun can be sold by Merchants?", "hdm_enable_queen", "SpawnEnable"
+	Option "Mags can be sold by Merchants?", "hdm_enable_queenmag", "SpawnEnable"
+	StaticText ""
+	Slider "Price (Gun)", "hdm_queen_price", 0.0, 5000, .01, 2
+	Slider "Price (Mag)", "hdm_queenmag_price", 0.0, 5000, .01, 2
+	StaticText ""
+	StaticText ""
+	StaticText "Use the following commands for faster fine tuning of values!", "Gold"
+	StaticText ""
+	StaticText "Spawn Weight:", "White"
+	StaticText "SLG_Queen_Spawns [VALUE]", "Green"
+	StaticText ""
+	StaticText "Merchant Price:", "White"
+	StaticText "hdm_queen_price [VALUE]", "Green"
+	StaticText ""
+	StaticText "Spawn Weight:", "White"
+	StaticText "SLG_QueenMag_Spawns [VALUE]", "Green"
+	StaticText ""
+	StaticText "Merchant Price:", "White"
+	StaticText "hdm_queenmag_price [VALUE]", "Green"
+	StaticText ""
+	StaticText ""
+	StaticText ""
+	
+}

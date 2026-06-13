@@ -1,0 +1,25 @@
+[enu default]
+
+QUEEN_OB = "%o couldn't handle queen %k.";
+QUEEN_TAG = "'Queen' .066 Bore Scatter Gun";
+QUEEN_PICKUP = "You got the .066 Bore Scatter Gun!";
+QUEENMAG_TAG = ".066 Bore Tube Magazine";
+QUEENMAG_PICKUP = "Picked up a .066 Bore Tube Magazine.";
+
+QUEEN_FIRE = "  Shoot";
+QUEEN_ALTFIRE = "  Chamber / Clear Jam\n";
+QUEEN_RELOAD = "  Load Magazine\n";
+QUEEN_UPRELOAD = "  Load Chamber\n"; 
+QUEEN_AFIREPUNL = "  Unload Chamber\n";
+
+//Merchant Stores
+
+//Queen Scattergun
+MERCH_CAT_QUEEN					= "VIRID Inc.";
+MERCH_TAG_QUEEN					= "'Queen' .066 Bore Scattergun";
+MERCH_FLAVOR_QUEEN				= "If they don't kneel, make them!";
+
+//Queen Scattergun Mag
+MERCH_CAT_QUEENMAG				= "VIRID Inc.";
+MERCH_TAG_QUEENMAG				= ".066 Bore Scattergun Magazine";
+MERCH_FLAVOR_QUEENMAG			= "";

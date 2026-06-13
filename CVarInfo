@@ -1,0 +1,13 @@
+//Queen Scattergun
+server float SLG_Queen_Spawns					= 2.1;
+server bool hdm_enable_queen					= true;
+server bool virqueen_allowBackpacks				= true;
+server bool SLG_Queen_Persistency 				= true;
+server int hdm_queen_price 						= 195;
+
+//Queen Mag
+server float SLG_QueenMag_Spawns				= 2.3;
+server bool hdm_enable_queenmag					= true;
+server bool virqueenmag_allowBackpacks			= true;
+server bool SLG_QueenMag_Persistency 			= true;
+server int hdm_queenmag_price 					= 13;

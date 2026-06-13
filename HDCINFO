@@ -1,0 +1,14 @@
+//Spawn
+addSpawnTableSingleEntry => { "tableName": "ShotgunReplaces", "name": "VirQueenDrop", "weight": "#SLG_Queen_Spawns", "persists": "#SLG_Queen_Persistency"}
+addSpawnTableSingleEntry => { "tableName": "ShellReplaces", "name": "VirQueenMag", "weight": "#SLG_QueenMag_Spawns", "persists": "#SLG_QueenMag_Persistency"}
+
+//Backpack Filter
+addBPSpawnPoolFilter => { "name": "VirQueen", "allowed": "#virqueen_allowBackpacks" }
+addBPSpawnPoolFilter => { "name": "VirQueenMag", "allowed": "#virqueenmag_allowBackpacks" }
+
+//Merchant store
+newMerchantStoreItem => { "enabled": "#hdm_enable_queen", "type": "weapon", "category": "$MERCH_CAT_QUEEN", "item": "VirQueen", "icon": "QSCGQ0", "displayName": "$MERCH_TAG_QUEEN", "basePrice": "#hdm_queen_price", "flavorText": "$MERCH_FLAVOR_QUEEN" }
+newMerchantStoreItem => { "enabled": "#hdm_enable_queenmag", "type": "mag", "category": "$MERCH_CAT_QUEENMAG", "item": "VirQueenMag", "icon": "QENMA0", "displayName": "$MERCH_TAG_QUEENMAG", "basePrice": "#hdm_queenmag_price", "flavorText": "$MERCH_FLAVOR_QUEENMAG" }
+
+//Ammo User
+addAmmoUser => { "ammoName": "HD069BoreAmmo", "name": "VirQueen" }
